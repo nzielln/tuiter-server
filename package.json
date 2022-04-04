@@ -1,0 +1,17 @@
+{
+  "name": "tuiter-server",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Server for Tuiter Applicatin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Ellah Nzikoba",
+  "license": "ISC"
+}
