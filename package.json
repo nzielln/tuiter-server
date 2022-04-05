@@ -1,8 +1,9 @@
 {
+  "type": "module",
   "name": "tuiter-server",
   "version": "1.0.0",
   "description": "Node.js HTTP Server for Tuiter Applicatin",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +14,11 @@
     "HTTP"
   ],
   "author": "Ellah Nzikoba",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2"
+  }
 }

@@ -1,6 +1,7 @@
 .idea
 /.idea
 /node_modules
+/build
 
 # Logs
 logs
