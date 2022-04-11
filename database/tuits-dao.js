@@ -21,6 +21,6 @@ export default {findTuits, deleteTuit, createTuit, updateTuit};
 
 
 /*
-mongodb+srv://nzielln:3ZbaAf8ZDMc08Caj@wdcluster.pqgeg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-mongodb+srv://nzielln:3ZbaAf8ZDMc08Caj@wdcluster.pqgeg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+mongodb+srv://nzielln:3ZbaAf8ZDMc08Caj@wdcluster.pqgeg.mongodb.net/tuiter?retryWrites=true&w=majority
+mongodb+srv://nzielln:3ZbaAf8ZDMc08Caj@wdcluster.pqgeg.mongodb.net/tuiter?retryWrites=true&w=majority
  */
