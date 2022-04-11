@@ -1,30 +1,27 @@
-import tuits_data from "./tuits/tuits.js";
+import tuitsDao from "../database/tuits-dao.js";
+import tuits from "./tuits/tuits.js"
 
-let tuits = tuits_data;
-
-const createTuits = (req, res) => {
-    const new_tuits = req.body;
-    new_tuits._id = (new Date()).getTime() + "";
-    new_tuits.likes = 0;
-    tuits.push(new_tuits);
-    res.json(new_tuits);
+const createTuits = async (req, res) => {
+    let new_tuit = req.body;
+    new_tuit = await tuitsDao.createTuit(new_tuit)
+    res.json(new_tuit);
 };
 
-const deleteTuits = (req, res) => {
+const deleteTuits = async (req, res) => {
     const id = req.params.id;
-    tuits = tuits.filter(tuit => tuit._id !== id);
+    const status = await tuitsDao.deleteTuit(id);
     res.sendStatus(200);
 };
 
-const updateTuits = (req, res) => {
+const updateTuits = async (req, res) => {
     const id = req.params.id;
-    const updated_tuit = req.body;
-    tuits = tuits.map(tuit => tuit._id === id ? updated_tuit : tuit);
+    const status = await tuitsDao.updateTuit(id, req.body)
     res.sendStatus(200);
 };
 
-const findAllTuits = (req, res) => {
-    res.json(tuits);
+const findAllTuits = async (req, res) => {
+    const _tuits = await tuitsDao.findTuits();
+    res.json(_tuits);
 };
 
 const TuitsController = (app) => {

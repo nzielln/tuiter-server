@@ -1,9 +1,9 @@
 export default [
     {
-        "_id": 0,
         "user": {
             "avatar": "react 2.png",
-            "user": "ReactJS", "handler": "@ReactJS",
+            "user": "ReactJS",
+            "handler": "@ReactJS",
             "lastactive": ""
         },
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ultricies rutrum. Aliquam erat volutpat. Quisque ac dictum mauris, vitae varius tortor. Mauris consequat leo elit, lacinia pulvinar magna auctor nec. Morbi purus massa, laoreet eu nulla gravida, lobortis sagittis arcu.",
@@ -28,16 +28,21 @@ export default [
         }
     },
     {
-        "_id": 1,
         "user": {
             "avatar": "node.svg",
-            "user": "SpaceX", "handler": "@spacex",
+            "user": "SpaceX",
+            "handler": "@spacex",
             "lastactive": ""
         },
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ultricies rutrum. Aliquam erat volutpat. Quisque ac dictum mauris, vitae varius tortor. Mauris consequat leo elit, lacinia pulvinar magna auctor nec. Morbi purus massa, laoreet eu nulla gravida, lobortis sagittis arcu.",
         "post": {
             "image": "",
-            "video": "",
+            "video": {
+                "width": "",
+                "height": "",
+                "url": "",
+                "title": ""
+            },
             "title": "",
             "content": ["", "none"],
             "link": ["", "none"]
@@ -52,16 +57,21 @@ export default [
     },
 
     {
-        "_id": 2,
         "user": {
             "avatar": "bb.jpeg",
-            "user": "BB", "handler": "@bbbb",
+            "user": "BB",
+            "handler": "@bbbb",
             "lastactive": ""
         },
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ultricies rutrum. Aliquam erat volutpat. Quisque ac dictum mauris, vitae varius tortor. Mauris consequat leo elit, lacinia pulvinar magna auctor nec. Morbi purus massa, laoreet eu nulla gravida, lobortis sagittis arcu.",
         "post": {
             "image": "",
-            "video": "",
+            "video": {
+                "width": "",
+                "height": "",
+                "url": "",
+                "title": ""
+            },
             "title": "",
             "content": ["", "none"],
             "link": ["", "none"]
@@ -76,16 +86,21 @@ export default [
     },
 
     {
-        "_id": 3,
         "user": {
             "avatar": "stan.jpeg",
-            "user": "StanLey", "handler": "@stanstan",
+            "user": "StanLey",
+            "handler": "@stanstan",
             "lastactive": ""
         },
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ultricies rutrum. Aliquam erat volutpat. Quisque ac dictum mauris, vitae varius tortor. Mauris consequat leo elit, lacinia pulvinar magna auctor nec. Morbi purus massa, laoreet eu nulla gravida, lobortis sagittis arcu.",
         "post": {
             "image": "people.jpeg",
-            "video": "",
+            "video": {
+                "width": "",
+                "height": "",
+                "url": "",
+                "title": ""
+            },
             "title": "",
             "content": ["", "none"],
             "link": ["", "none"]
@@ -98,18 +113,22 @@ export default [
             "liked": false
         }
     },
-
     {
-        "_id": 4,
         "user": {
             "avatar": "person.jpeg",
-            "user": "JustAPerson", "handler": "@person",
+            "user": "JustAPerson",
+            "handler": "@person",
             "lastactive": ""
         },
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ultricies rutrum. Aliquam erat volutpat. Quisque ac dictum mauris, vitae varius tortor. Mauris consequat leo elit, lacinia pulvinar magna auctor nec. Morbi purus massa, laoreet eu nulla gravida, lobortis sagittis arcu.",
         "post": {
             "image": "",
-            "video": "",
+            "video": {
+                "width": "",
+                "height": "",
+                "url": "",
+                "title": ""
+            },
             "title": "",
             "content": ["", "none"],
             "link": ["", "none"]
